@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JZZ 隐私政策</title>
+<style>
+  :root { --text:#182431; --sub:#4A5563; --muted:#99A0A8; --blue:#0A59F7; --tint:#EAF0FE; --bg:#F1F3F5; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, "HarmonyOS Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.75; -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  .meta { color: var(--muted); font-size: 13px; margin-bottom: 20px; }
+  .banner {
+    background: var(--tint); color: #0B4ED0; border-radius: 12px;
+    padding: 14px 16px; font-size: 15px; margin-bottom: 28px;
+  }
+  section { margin-bottom: 26px; }
+  h2 { font-size: 17px; margin: 0 0 8px; }
+  p { margin: 0; font-size: 15px; color: var(--sub); white-space: pre-wrap; }
+  footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>JZZ 隐私政策</h1>
+  <div class="meta">版本 v1.0.0 · 更新日期 2026-11-13</div>
+  <div class="banner">本应用不联网、不收集、不上传任何个人信息</div>
+
+  <section>
+    <h2>一、一句话说明</h2>
+    <p>JZZ（我的药箱）是一个完全离线的个人用药备忘工具。你的药品记录只保存在这台手机上，不联网、不上传、不收集任何个人信息。</p>
+  </section>
+
+  <section>
+    <h2>二、这个应用会处理哪些信息</h2>
+    <p>只有你自己录入的内容：药品名称、规格、生产厂家、用量用法、用药频次与时机、儿童用药分级与说明、孕妇用药、肝肾功能、不良反应、禁忌症、储存条件、注意事项、配伍禁忌、溶媒配伍、备注。
+
+这些内容保存在本机的应用私有数据库（jzz.db）中。除此之外，应用不读取你的电话、通讯录、短信、位置、相册、剪贴板、设备标识、应用列表等任何信息。</p>
+  </section>
+
+  <section>
+    <h2>三、应用不做哪些事情</h2>
+    <p>1. 不申请网络权限，应用内没有任何网络请求。
+2. 不内置统计、埋点、广告、推送等第三方 SDK。
+3. 不收集设备信息与使用行为，也不会上传任何数据到服务器。
+4. 不读取剪贴板，不后台自启动，不读取其他应用的数据。</p>
+  </section>
+
+  <section>
+    <h2>四、用到的系统能力</h2>
+    <p>1. 本地数据库：使用系统自带的关系型数据库保存你的药品记录，仅本机可读。
+2. 文件选择器：只有在你主动点击「数据导出」或「数据导入」时，才调用系统文件选择器，让你自己挑选文件的保存位置或来源文件。应用不会自行扫描你的文件。
+3. 偏好设置：仅记录「上次导出备份时间」，用于在设置页展示。</p>
+  </section>
+
+  <section>
+    <h2>五、数据安全与保存期限</h2>
+    <p>数据存放在系统分配给本应用的私有目录里，其他应用无法读取。保存期限即你保留这些记录的时间：你在应用内删除某条记录，它就立即被删除；卸载应用，全部数据随之删除，无法恢复。</p>
+  </section>
+
+  <section>
+    <h2>六、你的权利</h2>
+    <p>1. 查看与修改：随时进入任意药品详情页查看、编辑。
+2. 删除单条：详情页底部「删除该药品」。
+3. 清空全部：设置 → 清空全部数据。
+4. 导出备份：设置 → 数据导出，可导出 CSV 表格或 JSON 数据，文件由你指定保存位置。
+5. 彻底删除：卸载应用即可删除本机全部数据。</p>
+  </section>
+
+  <section>
+    <h2>七、关于导出的备份文件</h2>
+    <p>导出的 CSV/JSON 文件保存在你自己选择的目录里，其中包含你的个人用药信息。这些文件不再受本应用保护，请妥善保管，不要随意发送或分享给他人。</p>
+  </section>
+
+  <section>
+    <h2>八、未成年人使用</h2>
+    <p>本应用为个人备忘工具，不含任何社交、支付、内容推荐功能。未成年人应在监护人指导下使用，用药信息以医生和药品说明书为准。</p>
+  </section>
+
+  <section>
+    <h2>九、医疗免责声明</h2>
+    <p>本应用仅用于记录和查阅你自行录入的用药信息，不提供诊断、处方或用药建议。药品信息可能因厂家、规格、版本不同而有差异，实际用药请务必遵医嘱并核对药品说明书。</p>
+  </section>
+
+  <section>
+    <h2>十、政策更新</h2>
+    <p>若本政策发生变更，会在新版本的应用内更新本页面，并标注更新日期。本版本（v1.0.0）自 2026-11-13 起适用。</p>
+  </section>
+
+  <section>
+    <h2>十一、联系我们</h2>
+    <p>本应用由个人开发者独立开发与维护。如有疑问，可通过应用市场「JZZ」详情页中展示的开发者联系方式与我联系。</p>
+  </section>
+
+  <footer>JZZ v1.0.0 · 个人用药备忘 · 数据仅存本机</footer>
+</main>
+</body>
+</html>
